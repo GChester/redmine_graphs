@@ -415,7 +415,7 @@ class GraphsController < ApplicationController
         spent_on_line[scope_end_date.to_s] = spent_hours
         graph.add_data({
             :data => spent_on_line.sort.flatten,
-            :title => l(:label_spent_time).capitalize
+            :title => l(:label_estimated_minus_spent_time).capitalize
         })
         
         remaining_on_line[scope_end_date.to_s] = remaining_hours
