@@ -1,10 +1,10 @@
-# graph
+# Graphs Plugin
 
 This plugin provides instances of Redmine a method with additional graphs.
 
-Created by Gossamer Threads Inc. (http://www.gossamer-threads.com) Primary developer: Brad Beattie
-Updated by: [David S Anderson](https://github.com/ande3577)
-Branched by: [Philip Lapczynski](https://github.com/plapczyn)
+* Created by Gossamer Threads Inc. (http://www.gossamer-threads.com) Primary developer: Brad Beattie
+* Updated by: [David S Anderson](https://github.com/ande3577)
+* Branched by: [Philip Lapczynski](https://github.com/plapczyn)
 
 Report any issues to: https://github.com/plapczyn/redmine_graphs/issues?state=open
 
