@@ -8,8 +8,8 @@
   <% if project.nil? %>
     <h3><%= l(:label_graphs)%></h3>
     <% if aging_issues_enabled %>
-    	<%= link_to(l(:label_graphs_old_issues), {:controller => 'graphs', :action => 'old_issues'}) %>
-    	<br/>
+      <%= link_to(l(:label_graphs_old_issues), {:controller => 'graphs', :action => 'old_issues'}) %>
+      <br/>
     <% end %>
     
     <% if total_issues_over_time_enabled %>
@@ -59,6 +59,5 @@
       <br/>
     <% end %>
   <% end %>
-  <p>
 <% end %>
 

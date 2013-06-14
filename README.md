@@ -1,19 +1,18 @@
-# graphs
+# graph
 
 This plugin provides instances of Redmine a method with additional graphs.
 
-Created by Gossamer Threads Inc. (http://www.gossamer-threads.com)
-Primary developer: Brad Beattie
-
+Created by Gossamer Threads Inc. (http://www.gossamer-threads.com) Primary developer: Brad Beattie
 Updated by: [David S Anderson](https://github.com/ande3577)
+Branched by: [Philip Lapczynski](https://github.com/plapczyn)
 
-Report any issues to: https://github.com/ande3577/redmine-graphs-plugin/issues?state=open
+Report any issues to: https://github.com/plapczyn/redmine_graphs/issues?state=open
 
 ## How to use
 
 Only tested on Redmine 2.2/2.3 and Ruby 1.9.3.  Use other versions at your own risk.
 
-*Redmine 2.2 must use 2.2_branch*
+*Redmine 2.2/2.3 must use 2.2_branch*
 
 NOTE: Redmine 2.0.3 has compatibility issue with Ruby 1.9.x. Please see {Defect #11290: ParseDate missing in Ruby 1.9x - Redmine}[http://www.redmine.org/issues/11290].
 

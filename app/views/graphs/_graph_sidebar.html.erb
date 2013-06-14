@@ -9,7 +9,5 @@
 <% if User.current.allowed_to?(:view_gantt, @project, :global => true) %>
   <%= link_to(l(:label_gantt), :controller => 'gantts', :action => 'show', :project_id => @project) %><br />
 <% end %>
-
 <%= render :partial => "hooks/redmine_graphs/view_issues_sidebar_issues_bottom", :locals => { :project => @project } %>
-
 <%= render_sidebar_queries %>

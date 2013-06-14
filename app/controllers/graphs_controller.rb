@@ -90,7 +90,6 @@ class GraphsController < ApplicationController
       # Initialize the graph
       graph = SVG::Graph::TimeSeries.new({
           :area_fill => true,
-          :height => 300,
           :min_y_value => 0,
           :no_css => true,
           :show_x_guidelines => true,
@@ -100,7 +99,8 @@ class GraphsController < ApplicationController
           :show_data_values => false,
           :stagger_x_labels => true,
           :style_sheet => "/plugin_assets/redmine_graphs/stylesheets/issue_growth.css",
-          :width => 720,
+          :height => 500,
+          :width => 1000,
           :x_label_format => "%Y-%m-%d"
       })
 
@@ -166,7 +166,6 @@ class GraphsController < ApplicationController
         # Initialize the graph
         graph = SVG::Graph::TimeSeries.new({
             :area_fill => true,
-            :height => 300,
             :min_y_value => 0,
             :no_css => true,
             :show_x_guidelines => true,
@@ -176,7 +175,8 @@ class GraphsController < ApplicationController
             :show_data_values => false,
             :stagger_x_labels => true,
             :style_sheet => "/plugin_assets/redmine_graphs/stylesheets/issue_age.css",
-            :width => 720,
+            :height => 500,
+            :width => 1000,
             :x_label_format => "%b %d"
         })
 
@@ -215,7 +215,6 @@ class GraphsController < ApplicationController
         # Initialize the graph
         graph = SVG::Graph::TimeSeries.new({
             :area_fill => true,
-            :height => 300,
             :min_y_value => 0,
             :no_css => true,
             :show_x_guidelines => true,
@@ -225,7 +224,8 @@ class GraphsController < ApplicationController
             :show_data_values => false,
             :stagger_x_labels => true,
             :style_sheet => "/plugin_assets/redmine_graphs/stylesheets/bug_growth.css",
-            :width => 720,
+            :height => 500,
+            :width => 1000,
             :x_label_format => "%Y-%m-%d"
         })
 
@@ -264,7 +264,6 @@ class GraphsController < ApplicationController
         # Initialize the graph
         graph = SVG::Graph::TimeSeries.new({
             :area_fill => true,
-            :height => 300,
             :no_css => true,
             :show_x_guidelines => true,
             :scale_x_integers => true,
@@ -273,7 +272,8 @@ class GraphsController < ApplicationController
             :show_data_values => false,
             :stagger_x_labels => true,
             :style_sheet => "/plugin_assets/redmine_graphs/stylesheets/target_version.css",
-            :width => 800,
+            :width => 1000,
+            :height => 500,
             :x_label_format => "%b %d"
         })
         
@@ -342,7 +342,6 @@ class GraphsController < ApplicationController
         # Initialize the graph
         graph = SVG::Graph::TimeSeries.new({
             :area_fill => true,
-            :height => 300,
             :no_css => true,
             :show_x_guidelines => true,
             :scale_x_integers => true,
@@ -351,7 +350,8 @@ class GraphsController < ApplicationController
             :show_data_values => false,
             :stagger_x_labels => true,
             :style_sheet => "/plugin_assets/redmine_graphs/stylesheets/burndown.css",
-            :width => 800,
+            :height => 500,
+            :width => 1000,
             :x_label_format => "%b %d"
         })
         
